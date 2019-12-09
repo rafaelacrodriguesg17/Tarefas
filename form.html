@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Formulário das tarefas </title>
+</head>
+<body>
+    
+    <center>
+        
+        <form class="form-horizontal" action="/add" method="POST">
+
+            <fieldset>
+
+                <legend> Cadastrar Tarefas </legend>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Tarefa:</label>  
+                    <div class="col-md-4">
+                    <input id="textinput" name="tarefa" type="text" placeholder="Informe a tarefa a ser feita" class="form-control input-md">
+                    </div>
+                </div> 
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Data:</label>  
+                    <div class="col-md-4">
+                        <input id="textinput" name="data" type="date" class="form-control input-md">
+                        <br>
+                        <input id="textinput" name="btn" type="submit" class="form-control input-md">
+                    </div>
+                </div> 
+
+            </fieldset>
+
+        </form>
+
+    </center>
+
+
+</body>
+</html>
